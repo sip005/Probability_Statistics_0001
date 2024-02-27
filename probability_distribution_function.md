@@ -17,3 +17,12 @@ Now, if you want to find the probability that \( X \) falls between -1 and 1, yo
 \[ P(-1 \leq X \leq 1) = \int_{-1}^{1} \frac{1}{\sqrt{2\pi}} e^{-\frac{x^2}{2}} \,dx \]
 
 The result of this integration would give you the probability of \( X \) being between -1 and 1 in a standard normal distribution. The exact value would be calculated using numerical methods or tables for the standard normal distribution.
+
+\[ f(x) =
+\begin{cases} 
+0.5 & \text{if } x = 0 \text{ (tails)} \\
+0.5 & \text{if } x = 1 \text{ (heads)} \\
+0 & \text{otherwise}
+\end{cases}
+\]
+
